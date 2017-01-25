@@ -42,3 +42,14 @@ body {
 #a2 {
     color: black;
 }
+
+
+
+#Game1 {
+    border: solid;
+    border-color: #555555;
+    height: 200px;
+    width: 500px;
+    background-color: #888888;
+    margin: 0 auto;
+}
