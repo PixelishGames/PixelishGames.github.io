@@ -3,7 +3,7 @@ html {
 }
 
 #MenuBar{
-    background-color: #ffffff;
+    background-color: #888888;
     width: auto;
 }
 
@@ -17,4 +17,28 @@ body {
 
 #Center {
     text-align: center;
+}
+
+#Grey {
+    color: #666666;
+}
+
+#MFill {
+    color: #888888;
+}
+
+#White {
+    color: #ffffff;
+}
+
+#Black {
+    color: #000000;
+}
+
+#a1 {
+    color: black;
+}
+
+#a2 {
+    color: black;
 }
