@@ -43,6 +43,10 @@ body {
     color: black;
 }
 
+#DownloadLinks {
+	color: black;
+	underline: black;
+}
 
 
 #Game1 {
