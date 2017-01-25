@@ -2,14 +2,19 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-head {
+#MenuBar{
     background-color: #ffffff;
+    width: auto;
 }
 
 body {
     background-color:  #666666;
 }
 
-h1 {
+#Title {
     font-size: 20px;
+}
+
+#Center {
+    text-align: center;
 }
