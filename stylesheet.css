@@ -2,9 +2,34 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#HeadBar{
+    background-color: #888888;
+    width: 100%;
+    margin: auto;
+}
+
 #MenuBar{
     background-color: #888888;
-    width: auto;
+    width: 350px;
+    margin: auto;
+}
+#Home{
+    width: 150px;
+    float: left;
+    height: 50px;
+}
+#games{
+    width: 150px;
+    float: left;
+    height: 50px;
+}
+#spacer{
+    width: 50px;
+    float: left;
+    height: 50px;
+}
+#clear{
+    clear: both;
 }
 
 body {
@@ -45,15 +70,43 @@ body {
 
 #DownloadLinks {
 	color: black;
-	underline: black;
 }
 
+#space1 {
+    height: 15px;
+}
+#space2 {
+    height: 0.01px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#indented {
+    text-indent: 1.0em;
+}
 
 #Game1 {
     border: solid;
     border-color: #555555;
-    height: 200px;
+    height: 375px;
     width: 500px;
     background-color: #888888;
     margin: 0 auto;
+}
+
+
+
+#DimensionInfoContainer {
+    background-color: #777777;
+    width: 600px;
+    height: 900px;
+    margin: auto;
+}
+#DimensionTextContainer {
+    background-color: #777777;
+    width: 580px;
+    height: 200px;
+    margin: auto;
 }
