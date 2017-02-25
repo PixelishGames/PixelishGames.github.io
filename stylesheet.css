@@ -107,10 +107,23 @@ p {
 
 
 
-#GameInfoContainer {
+#DimensionInfoContainer {
     background-color: #777777;
     width: 600px;
     height: 900px;
+    margin: auto;
+}
+#DimensionTextContainer {
+    background-color: #777777;
+    width: 580px;
+    height: 200px;
+    margin: auto;
+}
+
+#GameInfoContainer {
+    background-color: #777777;
+    width: 600px;
+    height: 1200px;
     margin: auto;
 }
 #GameTextContainer {
