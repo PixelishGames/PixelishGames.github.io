@@ -1,11 +1,191 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+	background-color: #444;
+}
+
+#Bottom1{
+	float: bottom;
+	position: relative;
+	top:0px;
+	width:100%;
+	margin-bottom: auto;
+	background-color: #444444;
+	height: 150px;
+	font-family: Verdana;
+	font-size: 20px;
+}
+#Bottom{
+	float: bottom;
+	position: relative;
+	top:100px;
+	width:100%;
+	margin-bottom: auto;
+	background-color: #444444;
+	height: 150px;
+	font-family: Verdana;
+	font-size: 20px;
+}
+#BottomText{
+	position: relative;
+	height:145px;
+	left: 10px;
+	top: 10px;
+}
+.text{
+	color: #787878;
+}
+.text1{
+	color: #000;
+	position: relative;
+	top: 20px;
+	left: 15px;
+	line-height: 1px;
+}
+#one{
+	/* [disabled]background-color: #654321; */
+	position: relative;
+	left: -180px;
+	margin: 0 auto;
+	width: 300px;
+	height: 80px;
+}
+#two{
+	/* [disabled]background-color: #123456; */
+	position: relative;
+	left: 150px;
+	top: -100px;
+	margin: 0 auto;
+	width: 300px;
+	height: 80px;
+}
+#three{
+	/* [disabled]background-color: #162534; */
+	position: relative;
+	left: 350px;
+	top: -200px;
+	margin: 0 auto;
+	width: 300px;
+	height: 80px;
 }
 
 #HeadBar{
     background-color: #888888;
     width: 100%;
     margin: auto;
+	position:relative;
+	top: 5px;
+}
+
+#Html{
+	position: relative;
+	top:-40px;
+	right:10px;
+	left: -8px;
+    height: 100%;
+	margin: auto;
+}
+#Body{
+	height: 1200px;
+	width: 100%;
+	position: relative;
+	top: -20px;
+	margin: 10 auto;
+}
+#Body1{
+	height: 1600px;
+	width: 100%;
+	position: relative;
+	top: -20px;
+	margin: 10 auto;
+}
+#Body2{
+	height: 800px;
+	width: 100%;
+	position: relative;
+	top: -20px;
+	margin: 10 auto;
+}
+#Body3{
+	height: 711px;
+	width: 100%;
+	position: relative;
+    top: -20px;
+	margin: 10 auto;
+}
+html{
+	min-height: 100%;
+	overflow-x: hidden;
+}
+
+#PixelishGames{
+	position: relative;
+	left:100px;
+	float: none;
+	height: auto;
+    font-size: 50px;
+    font-family: Verdana;
+}
+
+#Games{
+	position: relative;
+	left: 100px;
+	width: 600px;
+	margin: 0 auto;
+}
+
+#SideBar{
+    background-color: #787878;
+    border: 1px solid;
+    border-color: #666666;
+    width: 200px;
+    height: 1098px;
+	position: relative;
+	top: -100px;
+    margin: 0 auto;
+    float: left;
+}
+#SideBar1{
+    background-color: #787878;
+    border: 1px solid;
+    border-color: #666666;
+    width: 200px;
+    height: 1498px;
+	position: relative;
+	top: -100px;
+    margin: 0 auto;
+    float: left;
+}
+#SideBar2{
+    background-color: #787878;
+    border: 1px solid;
+    border-color: #666666;
+    width: 200px;
+    height: 698px;
+	position: relative;
+	top: -100px;
+    margin: 0 auto;
+    float: left;
+}
+#SideBar3{
+    background-color: #787878;
+    border: 1px solid;
+    border-color: #666666;
+    width: 200px;
+    height: 798px;
+	position: relative;
+	top: -100px;
+    margin: 0 auto;
+    float: left;
+}
+#List{
+    color: #787878;
+}
+.Words{
+    color: #000000;
+    text-decoration: none;
+    text-decoration-color: #888888;
+    font-family: Verdana;
+    font-size: 25px;
 }
 
 #MenuBar{
@@ -41,22 +221,27 @@ body {
 }
 
 #Center {
-    text-align: center;
+	/* [disabled]background-color: #019283; */
+	text-align: center;
+	position: relative;
+	top: -30px;
+	left: 200px;
+	width: 1000px;	
 }
 
-#Grey {
+.Grey {
     color: #666666;
 }
 
-#MFill {
+.MFill {
     color: #888888;
 }
 
-#White {
+.White {
     color: #ffffff;
 }
 
-#Black {
+.Black {
     color: #000000;
 }
 
@@ -72,14 +257,14 @@ body {
 	color: black;
 }
 
-#space1 {
+.space1 {
     height: 15px;
 }
 #space2 {
     height: 0.01px;
 }
 
-p {
+#p {
     font-size: 20px;
 }
 
@@ -107,13 +292,15 @@ p {
 
 
 
-#DimensionInfoContainer {
+#RRInfoContainer {
     background-color: #777777;
     width: 600px;
-    height: 900px;
+    height: 500px;
     margin: auto;
+    position: relative;
+    left: 100px;
 }
-#DimensionTextContainer {
+#RRTextContainer {
     background-color: #777777;
     width: 580px;
     height: 200px;
@@ -124,7 +311,9 @@ p {
     background-color: #777777;
     width: 600px;
     height: 1200px;
-    margin: auto;
+    margin: 0 auto;
+    position: relative;
+    left: 100px;
 }
 #GameTextContainer {
     background-color: #777777;
